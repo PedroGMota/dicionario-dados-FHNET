@@ -1,5 +1,8 @@
 # Dicionário de Dados - FH NET TELECOM
 
+link da página do dicionário de dados da FH NET TELECOM
+https://pedrogmota.github.io/dicionario-dados-FHNET/
+
 Dicionário de dados interativo do banco de dados da **FH NET TELECOM**, provedor de internet residencial de Guarulhos/SP. O projeto documenta o schema `assinatura_telecom` (MySQL) com foco em governança de dados, seguindo práticas do DAMA-DMBOK e do COBIT.
 
 **Projeto:** Plataforma Centralizada de Gestão de Clientes, Rede e Faturamento
