@@ -48,13 +48,6 @@ Os nomes de arquivos são sensíveis a maiúsculas e minúsculas no GitHub Pages
 
 Não há dependências para instalar. Abra o `index.html` no navegador. O Panzoom.js é carregado por CDN (jsDelivr), então é necessário acesso à internet.
 
-## Como publicar no GitHub Pages
-
-1. Crie um repositório público e envie o **conteúdo** desta pasta, com o `index.html` na raiz.
-2. Acesse **Settings > Pages > Build and deployment > Source: Deploy from a branch**.
-3. Selecione o branch **main**, pasta `/ (root)` e clique em **Save**.
-4. Acesse `https://<usuario>.github.io/<repositorio>/` após alguns minutos.
-
 ## Como editar o conteúdo
 
 Os dados do dicionário ficam no array `T` em `script.js`. Cada tabela tem nome, descrição, linhagem, RBAC e uma lista de colunas no formato `[atributo, descrição, tipo, constraints, privacidade (S/P/N)]`. Uma coluna pode ter linhagem e RBAC próprios como 6º e 7º itens. O HTML é gerado a partir desse array.
